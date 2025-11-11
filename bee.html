@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeeLivery 🍰</title>
+  <link rel="stylesheet" href="bee.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <img src="logo.png" alt="Logo BeeLivery" class="logo">
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#acessibilidade">Acessibilidade</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Banner principal -->
+  <section class="banner">
+    <h1>BeeLivery</h1>
+    <p>🍯 A doçura que chega até você!</p>
+    <button onclick="mostrarMensagem()">Peça agora</button>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="conteudo">
+    <h2>Sobre a BeeLivery</h2>
+    <p>
+      A BeeLivery é uma plataforma de delivery especializada em doces e sobremesas, 
+      criada para conectar confeitarias e clientes de forma rápida e acessível. 
+      Nosso objetivo é oferecer uma experiência agradável, inclusiva e cheia de sabor!
+    </p>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="conteudo">
+    <h2>O que oferecemos 🍩</h2>
+    <ul>
+      <li>📦 Entregas rápidas e seguras</li>
+      <li>🍰 Catálogo completo de doces e confeitos</li>
+      <li>⭐ Avaliação de lojas e entregadores</li>
+      <li>💳 Pagamento direto pelo app</li>
+    </ul>
+  </section>
+
+  <!-- Acessibilidade -->
+  <section id="acessibilidade" class="conteudo acessivel">
+    <h2>Acessibilidade 💛</h2>
+    <p>
+      Nosso site foi desenvolvido com recursos inclusivos:
+      <br>- Modo alto contraste <br>- Suporte a leitores de tela
+      <br>- Fontes legíveis e ajustáveis <br>- Linguagem simples e objetiva
+    </p>
+    <button id="toggleContraste">Ativar modo alto contraste</button>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="conteudo">
+    <h2>Fale conosco 🍬</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>🐝 BeeLivery © 2025 - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="bee.js"></script>
+</body>
+</html>

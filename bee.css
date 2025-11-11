@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --marrom: #5B3A29;
+  --amarelo: #FFD166;
+  --rosa: #ECA8A0;
+  --bege: #FFF8E1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--bege);
+  color: var(--marrom);
+}
+
+/* Cabeçalho */
+header {
+  background-color: var(--rosa);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+header .logo {
+  height: 60px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: var(--amarelo);
+  color: var(--marrom);
+}
+
+.banner h1 {
+  font-size: 3em;
+}
+
+.banner p {
+  margin: 10px 0;
+  font-size: 1.3em;
+}
+
+.banner button {
+  background-color: var(--rosa);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.banner button:hover {
+  background-color: var(--marrom);
+}
+
+/* Conteúdo */
+.conteudo {
+  padding: 50px 15%;
+  text-align: center;
+}
+
+.conteudo h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--marrom);
+  font-size: 1em;
+}
+
+button[type="submit"] {
+  background-color: var(--rosa);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--marrom);
+}
+
+/* Rodapé */
+footer {
+  background-color: var(--rosa);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Acessibilidade */
+.alto-contraste {
+  background-color: #1a1a1a !important;
+  color: #fff !important;
+}
+
+.alto-contraste header,
+.alto-contraste footer {
+  background-color: #333 !important;
+}
+
+.alto-contraste button {
+  background-color: #FFD166 !important;
+  color: #000 !important;
+}
