@@ -22,7 +22,7 @@ body {
 /* Cabeçalho */
 header {
   background-color: var(--rosa);
-  color: white;
+  color: black
   display: flex;
   justify-content: space-between;
   align-items: center;
