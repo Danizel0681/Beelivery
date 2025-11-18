@@ -1,5 +1,5 @@
 function mostrarMensagem() {
-  alert("🐝 Bem-vindo à BeeLivery! Seu doce está a caminho!");
+  alert("🐝 a");
 }
 
 const botaoContraste = document.getElementById("toggleContraste");
